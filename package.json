@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "An app to welcome members to the gym",
   "engines": {
-    "node": "6.11.1"
+    "node": "6.11.0"
   },
   "main": "index.js",
   "scripts": {
