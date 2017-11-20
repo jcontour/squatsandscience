@@ -10,8 +10,9 @@ express()
 		console.log("loaded");
 		res.render('pages/index')
 	})
-	.get('brivo', function(req, res) {
+	.get('/brivo', function(req, res) {
 		console.log("brivo");
-		console.log(req)
+		res.render('pages/brivo')
+		// console.log(req)
 	})
 	.listen(PORT, () => console.log(`Listening on ${ PORT }`))
