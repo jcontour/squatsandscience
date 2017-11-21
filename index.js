@@ -10,7 +10,7 @@ express()
 		console.log("loaded");
 		res.render('pages/index')
 	})
-	.get('/brivo', function(req, res) {
+	.post('/brivo', function(req, res) {
 		console.log("brivo");
 		res.render('pages/brivo')
 		// console.log(req)
